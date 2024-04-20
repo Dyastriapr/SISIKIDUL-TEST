@@ -14,9 +14,9 @@ const Routing = () => {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/module" element={<Module />} />
-        <Route path="/galeri" element={<Gallery />} />
-        <Route path="/about" element={<About />} />
+        <Route path="module" element={<Module />} />
+        <Route path="galeri" element={<Gallery />} />
+        <Route path="about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

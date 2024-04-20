@@ -25,9 +25,9 @@ export const Nav = () => {
 
         <div className="hidden md:flex items-center space-x-6">
           <Link to="/" className={`text-custom-LightGrey font-light text-sm lg:text-base ${activeItem === 0 ? 'text-white' : 'hover:text-custom-Primary'}`} onClick={() => handleItemClick(0)}>Beranda</Link>
-          <Link to="/about" className={`text-custom-LightGrey font-light text-sm lg:text-base ${activeItem === 1 ? 'text-white' : 'hover:text-custom-Primary'}`} onClick={() => handleItemClick(1)}>Tentang</Link>
-          <Link to="/module" className={`text-custom-LightGrey font-light text-sm lg:text-base ${activeItem === 2 ? 'text-white' : 'hover:text-custom-Primary'}`} onClick={() => handleItemClick(2)}>Modul</Link>
-          <Link to="/galeri" className={`text-custom-LightGrey font-light text-sm lg:text-base ${activeItem === 3 ? 'text-white' : 'hover:text-custom-Primary'}`} onClick={() => handleItemClick(3)}>Galeri</Link>
+          <Link to="about" className={`text-custom-LightGrey font-light text-sm lg:text-base ${activeItem === 1 ? 'text-white' : 'hover:text-custom-Primary'}`} onClick={() => handleItemClick(1)}>Tentang</Link>
+          <Link to="module" className={`text-custom-LightGrey font-light text-sm lg:text-base ${activeItem === 2 ? 'text-white' : 'hover:text-custom-Primary'}`} onClick={() => handleItemClick(2)}>Modul</Link>
+          <Link to="galeri" className={`text-custom-LightGrey font-light text-sm lg:text-base ${activeItem === 3 ? 'text-white' : 'hover:text-custom-Primary'}`} onClick={() => handleItemClick(3)}>Galeri</Link>
         </div>
 
         <div className="md:hidden">
@@ -43,9 +43,9 @@ export const Nav = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-gradient-purple py-3">
           <Link to="/" className="block text-white font-light text-sm px-6 py-2">Beranda</Link>
-          <Link to="/about" className="block text-white font-light text-sm px-6 py-2">Tentang</Link>
-          <Link to="/module"className="block text-white font-light text-sm px-6 py-2">Modul</Link>
-          <Link to="/galeri" className="block text-white font-light text-sm px-6 py-2">Galeri</Link>
+          <Link to="about" className="block text-white font-light text-sm px-6 py-2">Tentang</Link>
+          <Link to="module"className="block text-white font-light text-sm px-6 py-2">Modul</Link>
+          <Link to="galeri" className="block text-white font-light text-sm px-6 py-2">Galeri</Link>
         </div>
       )}
     </nav>

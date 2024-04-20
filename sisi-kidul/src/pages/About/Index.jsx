@@ -5,7 +5,7 @@ import { FotoProfil } from '../../assets';
 
 const About = () => {
     return (
-        <div id='about' className='pt-32 container md:px-32 p-5'>
+        <div id='about' className='pt-32 container md:px-32 p-5 mx-auto'>
             <div className='flex items-center justify-center'>
                 <img src={FotoProfil} alt="" className='w-80'/>
             </div>
